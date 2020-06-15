@@ -4,7 +4,7 @@ function interview(count){
         if (Math.random() > 0.2) {
             reslove('success')
         } else {
-            reject('fail at'+ count)
+            reject('fail at round '+ count)
         }
     })
 }
